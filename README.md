@@ -4,12 +4,12 @@
 
 a Go (golang) [RADIUS](https://tools.ietf.org/html/rfc2865) client and server implementation
 
-[![GoDoc](https://godoc.org/layeh.com/radius?status.svg)](https://godoc.org/layeh.com/radius)
+[![GoDoc](https://godoc.org/github.com/goconnectx/radius?status.svg)](https://godoc.org/github.com/goconnectx/radius)
 [![CircleCI](https://circleci.com/gh/layeh/radius/tree/master.svg?style=shield)](https://circleci.com/gh/layeh/radius/tree/master)
 
 ## Installation
 
-    go get -u layeh.com/radius
+    go get -u github.com/goconnectx/radius
 
 ## Client example
 
@@ -20,8 +20,8 @@ import (
 	"context"
 	"log"
 
-	"layeh.com/radius"
-	"layeh.com/radius/rfc2865"
+	"github.com/goconnectx/radius"
+	"github.com/goconnectx/radius/rfc2865"
 )
 
 func main() {
@@ -45,8 +45,8 @@ package main
 import (
 	"log"
 
-	"layeh.com/radius"
-	"layeh.com/radius/rfc2865"
+	"github.com/goconnectx/radius"
+	"github.com/goconnectx/radius/rfc2865"
 )
 
 func main() {
@@ -80,11 +80,11 @@ func main() {
 
 Included in this package is the command line program `radius-dict-gen`. It can be installed with:
 
-    go get -u layeh.com/radius/cmd/radius-dict-gen
+    go get -u github.com/goconnectx/radius/cmd/radius-dict-gen
 
 Given a FreeRADIUS dictionary, the program will generate helper functions and types for reading and manipulating RADIUS attributes in a packet. It is recommended that generated code be used for any RADIUS dictionary you would like to consume.
 
-Included in this repository are sub-packages of generated helpers for commonly used RADIUS attributes, including [`rfc2865`](https://godoc.org/layeh.com/radius/rfc2865) and [`rfc2866`](https://godoc.org/layeh.com/radius/rfc2866).
+Included in this repository are sub-packages of generated helpers for commonly used RADIUS attributes, including [`rfc2865`](https://godoc.org/github.com/goconnectx/radius/rfc2865) and [`rfc2866`](https://godoc.org/github.com/goconnectx/radius/rfc2866).
 
 ## License
 
@@ -92,4 +92,4 @@ MPL 2.0
 
 ## Author
 
-Tim Cooper (<tim.cooper@layeh.com>)
+Tim Cooper (<tim.cooper@github.com/goconnectx>)

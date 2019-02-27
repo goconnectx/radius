@@ -5,9 +5,9 @@ package rfc3576
 import (
 	"strconv"
 
-	"layeh.com/radius"
+	"github.com/goconnectx/radius"
 
-	. "layeh.com/radius/rfc2865"
+	. "github.com/goconnectx/radius/rfc2865"
 )
 
 const (

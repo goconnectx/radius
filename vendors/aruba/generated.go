@@ -6,8 +6,8 @@ import (
 	"net"
 	"strconv"
 
-	"layeh.com/radius"
-	"layeh.com/radius/rfc2865"
+	"github.com/goconnectx/radius"
+	"github.com/goconnectx/radius/rfc2865"
 )
 
 const (
